@@ -2,8 +2,17 @@ body{
   font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
   margin: 0;
   padding: 20px;
-  background-color: #eaf3f3;
+  background-color: #fff;
   line-height: 1.8;
+}
+
+mainManu{
+  line-height: 15px;
+    margin: 4px 0 0;
+    padding: 0;
+    list-style: none;
+    height: 15px;
+    font-size: 15px;
 }
 
 img{
@@ -24,7 +33,7 @@ img.frame{
   background-color: #fff;
   padding: 20px;
   margin-bottom: 10px;
-  border-radius: 5px;
+  border-radius:5px;
 }
 
 .name{
@@ -32,7 +41,7 @@ img.frame{
   padding-bottom: 10px;
   font-size: 1.2em;
   border-bottom: 1px solid #ddd;
-  color: #ff0000;
+  color: #000000;
 }
 
 .btns{
