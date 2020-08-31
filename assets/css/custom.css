@@ -9,7 +9,7 @@
 
 h1{
     font-size: 18px;
-    border-left: #00b099 solid 5px;
+    font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
     padding-left: 5px;
     margin-bottom:20px;
 }
@@ -182,6 +182,46 @@ body.index_page h1{
     font-size: 26px;
 }
 
+#menu ul{ 
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+    position: fixed;
+    top: 20vh;
+    z-index: 1;
+    }
+    #menu li{ 
+    display: inline; 
+    padding: 0; 
+    margin: 0; 
+    }
+    #menu li a{
+    display: block; 
+    border-left: 20px solid #fa423a;
+    border-top: 1px solid #fa423a;
+    border-right: 1px solid #fa423a;
+    border-bottom: 1px solid #fa423a;
+    background-color: transparent 255;
+    padding: 3px 10px;
+    text-decoration: none;
+    color: #00b099;
+    width: 180px; 
+    margin: 3px 0px;
+    text-align: left;
+    font-size: 14px;
+    transition: ease-in 0.3s;
+    }
+    
+    #menu li a:hover{
+    border-left: 8px solid #fa423a;
+    border-top: 1px solid #fa423a;
+    border-right: 1px solid #fa423a;
+    border-bottom: 1px solid #fa423a;
+    background-color: #d7efd7;
+    transition: ease-out 0.1s;
+    }
+    
+    
 /*======================================================
 footer
 ======================================================*/
