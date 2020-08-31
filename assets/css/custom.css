@@ -6,197 +6,184 @@
     line-height: 2;
 } */
 
-
-h1{
+h1 {
     font-size: 18px;
     font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
     padding-left: 5px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
-h2{
+h2 {
     font-size: 16px;
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
 
-h3{
+h3 {
     font-size: 15px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
-html,
-body,
-#wrapper{
+html, body, #wrapper {
     min-height: 100%;
 }
 
-
-
-@media screen and (min-width:481px) { 
-    #wrapper{
+@media screen and (min-width:481px) {
+    #wrapper {
         padding-bottom: 0px;
     }
 }
 
-@media screen and (max-width:480px) { 
-    #wrapper{
+@media screen and (max-width:480px) {
+    #wrapper {
         padding-top: 60px;
     }
 }
 
-ul,ol{
+ul, ol {
     margin-bottom: 10px;
 }
 
 /*======================================================
 header
 ======================================================*/
+
 header {
     border-bottom: 1px solid #00b099;
     background-color: #00b099;
 }
 
-@media screen and (max-width:480px) { 
-    header{
-       position: fixed;
-       width:100%;
-       top:0;
-       z-index: 1;
+@media screen and (max-width:480px) {
+    header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1;
     }
 }
 
-
-#main_nav{
+#main_nav {
     text-align: center;
     padding: 20px;
 }
 
-#main_nav li{
-    display:inline-block;
+#main_nav li {
+    display: inline-block;
 }
 
-#main_nav li a,
-#main_nav li span{
-    font-size:20px;
+#main_nav li a, #main_nav li span {
+    font-size: 20px;
     text-decoration: none;
-    margin:0 20px;
+    margin: 0 20px;
     padding-bottom: 5px;
     font-weight: bold;
 }
 
-#main_nav li a:hover,
-#main_nav li span{
+#main_nav li a:hover, #main_nav li span {
     color: #fa423a;
-    
 }
 
-#main_nav li span{
+#main_nav li span {
     border-bottom: 3px solid #e0e0e0;
 }
 
-
-@media screen and (max-width:480px) { 
-    #main_nav{
+@media screen and (max-width:480px) {
+    #main_nav {
         padding: 10px;
     }
-
-
-    #main_nav li a,
-    #main_nav li span{
-        font-size:15px;
-        margin:0 10px;
+    #main_nav li a, #main_nav li span {
+        font-size: 15px;
+        margin: 0 10px;
     }
 }
-
 
 /*======================================================
 main
 ======================================================*/
 
-main{
-    padding:30px 50px;
+main {
+    padding: 30px 50px;
     max-width: 900px;
     margin: 0 auto;
     position: relative;
     z-index: 0;
 }
 
-@media screen and (max-width:480px) { 
-    main{
-        padding:30px 20px;
+@media screen and (max-width:480px) {
+    main {
+        padding: 30px 20px;
     }
 }
 
-
-.main_pic{
+.main_pic {
     text-align: center;
     margin-bottom: 30px;
 }
 
-.sub_pic{
-    display:inline-block;
+.sub_pic {
+    display: inline-block;
     padding: 10px;
     border: 1px solid #fa423a;
 }
 
-.sub_pic img{
-    display:block;
+.sub_pic img {
+    display: block;
 }
 
-.main_pic img{
+.main_pic img {
     display: block;
     margin: 0 auto;
-    padding: 10px;
+    padding: 60px;
     border: 1px solid #00b099;
 }
 
-.session,
-.period{
+.session, .period {
     margin-bottom: 40px;
 }
 
-.session h2{
+.session h2 {
     border-bottom: 1px solid #ddd;
 }
 
-
-.youtube{
-    position:relative;
-    width:100%;
-    padding-top:56.25%;
+.youtube {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
     margin-bottom: 20px;
 }
-.youtube iframe{
-    position:absolute;
-    top:0;
-    right:0;
-    width:100%;
-    height:100%;
+
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }
 
-
-
-body.index_page h1{
+body.index_page h1 {
     border: none;
     text-align: center;
     font-size: 26px;
 }
-
-#menu ul{ 
-    margin: 0; 
-    padding: 0; 
-    list-style-type: none; 
+/*======================================================
+menu
+======================================================*/
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
     position: fixed;
     top: 20vh;
     z-index: 1;
-    }
-    #menu li{ 
-    display: inline; 
-    padding: 0; 
-    margin: 0; 
-    }
-    #menu li a{
-    display: block; 
+}
+
+#menu li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li a {
+    display: block;
     border-left: 20px solid #fa423a;
     border-top: 1px solid #fa423a;
     border-right: 1px solid #fa423a;
@@ -205,48 +192,43 @@ body.index_page h1{
     padding: 3px 10px;
     text-decoration: none;
     color: #00b099;
-    width: 180px; 
+    width: 180px;
     margin: 3px 0px;
     text-align: left;
     font-size: 14px;
     transition: ease-in 0.3s;
-    }
-    
-    #menu li a:hover{
+}
+
+#menu li a:hover {
     border-left: 8px solid #fa423a;
     border-top: 1px solid #fa423a;
     border-right: 1px solid #fa423a;
     border-bottom: 1px solid #fa423a;
     background-color: #d7efd7;
     transition: ease-out 0.1s;
-    }
-    
-    
+}
+
 /*======================================================
 footer
 ======================================================*/
-footer{
+
+footer {
     background-color: #006099;
-    color:#00b099;
+    color: #00b099;
     font-size: 80%;
-    padding:10px;
-    min-height:80px;
+    padding: 10px;
+    min-height: 80px;
     border-top: 1px solid #00b099;
-
     position: flex;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
-   
 }
 
-
-@media screen and (min-width:481px) { 
-    footer{
+@media screen and (min-width:481px) {
+    footer {
         position: flex;
-        bottom:0;
-        width:100%;
+        bottom: 0;
+        width: 100%;
     }
 }

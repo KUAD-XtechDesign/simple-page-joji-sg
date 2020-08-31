@@ -1,40 +1,39 @@
 html {
   color: #fa423a;
   background: #006099;
-
+  font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   font-size: 14px;
   line-height: 1.8;
 }
 
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-img{
+img {
   max-width: 100%;
-  height:auto;
+  height: auto;
 }
 
-a{
-  color:#fa423a;
+a {
+  color: #fa423a;
 }
 
-li{
+li {
   list-style-position: inside;
 }
 
-
-.mb_s{
+.mb_s {
   margin-bottom: 10px;
 }
 
-.mb_m{
+.mb_m {
   margin-bottom: 20px;
 }
 
-.mb_l{
+.mb_l {
   margin-bottom: 40px;
 }
 
@@ -45,13 +44,12 @@ img.gray {
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
   transition: filter 0.3s;
-  }
+}
 
-  img.gray:hover {
-    -webkit-filter: grayscale(0);
-    -moz-filter: grayscale(0);
-    -ms-filter: grayscale(0);
-    -o-filter: grayscale(0);
-    filter: grayscale(0);
-    }
-  
+img.gray:hover {
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -ms-filter: grayscale(0);
+  -o-filter: grayscale(0);
+  filter: grayscale(0);
+}
