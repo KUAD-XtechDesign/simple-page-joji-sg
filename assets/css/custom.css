@@ -50,6 +50,7 @@ header
 header {
     border-bottom: 1px solid #00b099;
     background-color: #00b099;
+    margin-bottom: 100px;
 }
 
 @media screen and (max-width:480px) {
@@ -159,11 +160,11 @@ main {
     height: 100%;
 }
 
-body.index_page h1 {
+/* body.index_page h1 {
     border: none;
     text-align: center;
     font-size: 26px;
-}
+} */
 /*======================================================
 menu
 ======================================================*/
