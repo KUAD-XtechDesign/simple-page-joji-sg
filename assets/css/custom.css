@@ -9,7 +9,6 @@
 h1 {
     font-size: 18px;
     font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-    padding-left: 5px;
     margin-bottom: 20px;
 }
 
@@ -142,7 +141,9 @@ main {
 }
 
 .session h2 {
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #00b099; */
+    border-left: 5px solid #00b099;
+    padding-left: 5px;
 }
 
 .youtube {
@@ -197,7 +198,7 @@ menu
     margin: 3px 0px;
     text-align: left;
     font-size: 14px;
-    transition: ease-in 0.3s;
+    transition: border 0.3s;
 }
 
 #menu li a:hover {
