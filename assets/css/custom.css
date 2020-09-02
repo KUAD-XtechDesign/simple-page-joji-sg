@@ -120,12 +120,15 @@ main {
 }
 
 .sub_pic {
-    display: inline-block;
-    margin: 10px 0px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .sub_pic img {
     display: block;
+    padding: 100px;
+    margin: 70px 0px;
+    border: 1px solid #00b099;
 }
 
 .main_pic img {
@@ -153,11 +156,13 @@ img.gray:hover {
 }
 img.big {
     padding: auto;
+    margin: auto;
     transition: padding ease-in-out 0.2s;
 }
 
 img.big:hover {
-padding: 20px;
+padding: 10px;
+margin: auto;
 transition: padding ease-in-out 0.1s;
 
 }
